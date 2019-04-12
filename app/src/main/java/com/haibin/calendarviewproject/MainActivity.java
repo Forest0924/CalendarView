@@ -26,6 +26,7 @@ import com.haibin.calendarviewproject.multi.MultiActivity;
 import com.haibin.calendarviewproject.pager.ViewPagerActivity;
 import com.haibin.calendarviewproject.progress.ProgressActivity;
 import com.haibin.calendarviewproject.range.RangeActivity;
+import com.haibin.calendarviewproject.self.SelfActivity;
 import com.haibin.calendarviewproject.simple.SimpleActivity;
 import com.haibin.calendarviewproject.single.SingleActivity;
 import com.haibin.calendarviewproject.solay.SolarActivity;
@@ -311,8 +312,9 @@ public class MainActivity extends BaseActivity implements
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ll_flyme:
-                MeiZuActivity.show(this);
+//                MeiZuActivity.show(this);
                 //TestActivity.show(this);
+                SelfActivity.show(this);
                 break;
             case R.id.ll_custom:
                 CustomActivity.show(this);
